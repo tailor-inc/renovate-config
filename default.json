@@ -3,7 +3,7 @@
   "extends": [
     "config:best-practices",
     ":approveMajorUpdates",
-    "npm:unpublishSafe"
+    "security:minimumReleaseAgeNpm"
   ],
   "postUpdateOptions": [
     "gomodTidy",
