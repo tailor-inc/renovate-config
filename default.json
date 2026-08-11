@@ -13,6 +13,14 @@
   "vulnerabilityAlerts": {
     "labels": ["security"]
   },
+  "packageRules": [
+    {
+      "groupName": "Tailor Platform packages",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@tailor-platform/*"],
+      "separateMajorMinor": false
+    }
+  ],
   "customManagers": [
     {
       "customType": "regex",
