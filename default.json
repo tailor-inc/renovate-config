@@ -17,8 +17,7 @@
     {
       "groupName": "Tailor Platform packages",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@tailor-platform/*"],
-      "separateMajorMinor": false
+      "matchPackageNames": ["@tailor-platform/*"]
     }
   ],
   "customManagers": [
