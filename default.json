@@ -15,9 +15,13 @@
   },
   "packageRules": [
     {
-      "groupName": "Tailor Platform packages",
+      "groupName": "Tailor Platform SDK and ERP kit packages",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@tailor-platform/*"]
+      "matchPackageNames": [
+        "@tailor-platform/sdk",
+        "@tailor-platform/sdk-*",
+        "@tailor-erp/kit"
+      ]
     }
   ],
   "customManagers": [
